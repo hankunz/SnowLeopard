@@ -1,0 +1,203 @@
+/* Type Selector: Body */
+body
+{
+	margin: 0;
+	font-family: 'Raleway', sans-serif;	
+}
+
+/* class Selector: big */
+.big{
+	font-weight:bold;
+}
+
+/* ID Selector: background */
+#background
+{
+	position:fixed;
+	width: 100%; 
+	background-image: url(../media/bg.jpg); 
+	background-size: cover; 
+	background-color: rgb(28, 4, 23); 
+	height: 947px; 
+	background-position: 50% 0%; 
+	background-repeat: no-repeat no-repeat;
+	z-index:0;
+}
+
+/* ID Selector: top */
+#top{
+	position: fixed;
+	bottom:0;
+	right:0;
+	color:white;
+	margin-right:150px;
+	font-size:30px;
+}
+
+/* ID Selector: pictures */
+#pictures{
+
+	
+}
+
+/* Descendant Selector: pictures img */
+#pictures img{
+	margin-top:200px;
+	margin-left:10px;
+	height:500px;
+	width: 800px;
+	}
+
+/* ID Selector: title */
+#title {
+	position: relative;
+	top: 0px;
+	left: 50px;
+	padding: 8px;	
+	color:black;
+	width: 15%;
+	border: 0;
+	text-align: center;
+	border-radius: 20px;
+	
+}
+
+/* ID Selector: title2 */
+#title2 {
+	position: relative;
+
+	margin:auto;
+	margin-top:300px;
+	color:white;
+	width: 1000px;
+	border: 0;
+	text-align: center;
+	border-radius: 20px;
+	
+}
+
+/* Type Selector: h1 */
+h1{
+	font-size:120px;
+}
+
+/* ID Selector: content */
+#content {
+	font-size:20px;
+	top:550px;
+
+	position:relative;
+	border: 0;
+	color:white;
+	width: 60%;
+	min-width: 800px;
+	max-width: 1500px; 
+	max-height: 500; 
+	padding: 50px;
+	border-radius: 20px;
+	height: 100%;
+	overflow: auto;
+	margin:auto;
+	z-index:10;
+	background: rgb(0, 0, 0) transparent;
+	/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.5);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	/* For IE 8*/
+	
+ } 
+ 
+/* ID Selector: menu */
+#menu {
+	padding:8px;
+	padding-left:150px;
+	top:-20px;
+	background:black;
+	font-size:30px;
+	border-radius: 20px;
+	position: relative;
+	margin: 0;
+	color:white;
+	left: -15px;
+	border: 1px solid black;
+	overflow: auto;
+	width: 50%
+}
+
+/* Descendant Selector: menu li */
+#menu li {
+
+	width: 25%;
+	float: left;
+	list-style: none;
+	text-align: center;
+	
+}
+
+/* Descendant Selector: menu li a*/
+#menu li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	background: black;
+
+	padding: 8px 0;
+	color: white;
+}
+
+/* Descendant Selector: menu li a:hover */
+#menu li a:hover {
+	background: white;
+	color: black;
+}
+
+/* Type Selector: menu hr */
+hr {
+	color:black;
+}
+
+/* ID Selector: homeicon */
+#homeicon{
+	position: fixed;
+	bottom:10px;
+	right:15px;
+	border: 0;
+}
+
+/* ID Selector: galleryicon */
+#galleryicon{
+	position: fixed;
+	bottom:10px;
+	right:15px;
+	border:0;
+}
+
+/* Type Selector: a:link */
+ a:link{
+font-weight : bold ;
+text-decoration : none ;
+color : black ;
+}
+
+/* Type Selector: a:visited */
+ a:visited {
+font-weight : bold ;
+text-decoration : none ;
+color : #c30 ;
+}
+
+/* Type Selector: a:hover */
+a:hover {
+font-weight : bold ;
+text-decoration : underline ;
+color : #f60 ;
+}
+
+/* Type Selector: a:active */
+ a:active {font-weight : bold ;
+text-decoration : none ;
+color : #F90 ;
+} 
+
+
+
